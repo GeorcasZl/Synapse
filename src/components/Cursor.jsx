@@ -94,7 +94,7 @@ const Cursor = () => {
 
   const baseClasses = "fixed top-0 left-0 w-3 h-3 rounded-full pointer-events-none z-[99999] mix-blend-difference will-change-transform";
   const typeClasses = cursorType === 'magnetic' 
-      ? 'bg-[#CCFF00] blur-sm' // 磁吸态 (JS控制了opacity)
+      ? 'bg-[#CCFF00] blur-xs' // 磁吸态 (JS控制了opacity)
       : 'bg-[#E0E0E0]';             // 默认态
 
   return createPortal(
